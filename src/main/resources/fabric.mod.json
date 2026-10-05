@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "performanceoptimizermod",
+  "version": "${version}",
+  "name": "Performance Optimizer Mod",
+  "description": "Extreme performance optimization mod for Minecraft",
+  "authors": [
+    "andihenninger16"
+  ],
+  "contact": {
+    "homepage": "https://github.com/andihenninger16/performanceoptimizermod",
+    "sources": "https://github.com/andihenninger16/performanceoptimizermod"
+  },
+  "license": "MIT",
+  "icon": "assets/performanceoptimizermod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.andihenninger16.performanceoptimizermod.PerformanceOptimizerMod"
+    ]
+  },
+  "mixins": [
+    "performanceoptimizermod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
